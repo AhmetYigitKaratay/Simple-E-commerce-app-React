@@ -21,6 +21,10 @@ npm run dev
 ```
 ## Thing to make Improvements
 A favourites page can be built. User may add to products to favourites page to buy it next time.
+
+
 Application can be mobilephone friendly.
+
+
 Can built an reccomendation page. Someone who buy something can buy another product.
 
