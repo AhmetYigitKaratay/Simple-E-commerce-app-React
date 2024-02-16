@@ -1,0 +1,88 @@
+.navbar {
+  width: 100%;
+  height: 120px;
+  background-color: orange;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.links a,
+.logo-wrapper a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: green;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 25px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+
+.logo-wrapper a {
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 15px 15px;
+  margin-right: 420px;
+}
+
+
+.cart-wrapper,
+.history-wrapper,
+.user-wrapper {
+  margin-bottom: 5px;
+}
+
+/* Hover effect */
+.logo:hover,
+.links a:hover {
+  color: white;
+  background-color: green;
+}
+
+
+@media screen and (max-width: 576px) {
+  .logo-wrapper a {
+    margin-right: 10px;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+
+  .logo-wrapper a,
+  .links a {
+    padding: 8px 12px;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .logo-wrapper a {
+    margin-right: 50px;
+  }
+
+  .links {
+    margin-right: 20px;
+  }
+}
+
+
+@media screen and (min-width: 993px) {
+  .logo-wrapper a {
+    margin-right: 420px;
+  }
+
+  .links {
+    margin-right: 30px;
+  }
+}

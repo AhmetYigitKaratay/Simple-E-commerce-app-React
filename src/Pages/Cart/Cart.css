@@ -1,0 +1,87 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+
+  align-items: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.cartItem img {
+  width: 200px;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 25px;
+}
+
+
+.counthandler input {
+  width: 35px;
+  text-align: center;
+  font-weight: normal;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+.counthandler button {
+  text-decoration: none;
+  color: inherit;
+  background-color: #131313;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.deleteHandler {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(252, 41, 41);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.checkout p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.deleteHandler:hover {
+  color: red;
+  background-color: white;
+}
+
+.counthandler button:hover,
+.checkout button:hover {
+  color: black;
+  background-color: white;
+}

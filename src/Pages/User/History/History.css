@@ -1,0 +1,65 @@
+.hist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.histItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.histItem img {
+  width: 200px;
+}
+
+.histItem .description {
+  width: 100%;
+  font-size: 25px;
+}
+
+.checkout button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.checkout p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.deleteHandler {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(252, 41, 41);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.deleteHandler:hover {
+  color: red;
+  background-color: white;
+}
+
+.checkout button:hover,
+.deleteHandler:hover {
+  color: black;
+  background-color: white;
+}
