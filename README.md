@@ -1,8 +1,26 @@
-# React + Vite
+# Simple E-Commerce-Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary
 
-Currently, two official plugins are available:
+This project is based on react and ContextAPI. It's a simple e-commerce application which users can buy grocer products.
+Users can login, register and update their user informations.
+Products can be seen in order history page right after payment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Link in Live
+
+https://simple-e-commerce-app-react.vercel.app/
+ 
+## Enviromental setup
+
+Node.js should be setuped in pc.
+After cloning the project, you should cd in to project folder.
+After that you can start the project as you run this code in terminal.
+
+```
+npm run dev
+```
+## Thing to make Improvements
+A favourites page can be built. User may add to products to favourites page to buy it next time.
+Application can be mobilephone friendly.
+Can built an reccomendation page. Someone who buy something can buy another product.
+
