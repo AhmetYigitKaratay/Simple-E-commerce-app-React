@@ -19,7 +19,7 @@ After that you can start the project as you run this code in terminal.
 ```
 npm run dev
 ```
-## Thing to make Improvements
+## Further Improvement Points
 A favourites page can be built. User may add to products to favourites page to buy it next time.
 
 
